@@ -1,0 +1,129 @@
+@media screen and (max-width:1200px) {
+
+}
+
+@media screen and (max-width:840px) {
+    .bike_3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .bike_1--2__inner::after {
+        left: 47%;
+    }
+    .bike_2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .bike_1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .bike_3--2__inner::after {
+        left: 48%;
+
+    }
+    .footer__social {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+
+        background-color: #64c29e;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+        height: 100%;
+        z-index: 2;
+        text-align: center;
+    }
+    .nav_1{
+        z-index: 3;
+        margin-top: 65px;
+    }
+    .nav_2{
+        padding-top: 15px;
+    }
+    .nav ul, li {
+        display: block;
+        padding: 5px;
+    }
+    .nav__link-1 {
+        margin-right: 0px;
+    }
+    .nav__link-2 {
+        margin-left: 0px;
+    }
+    .nav.show {
+        display: flex;
+    }
+
+    .nav__link {
+        padding: 9px 15px;
+    }
+
+    .burger {
+        display: block;
+    }
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 35px;
+    }
+    .header__logo img {
+        margin: 0px;
+        width: 74px;
+    }
+    .header__logo{
+        margin: 0px auto;
+        padding-left: 35px;
+    }
+    .shop__inner {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .shop__item-5,.shop__item-6,.shop__item-7,.shop__item-8{
+        display: none;
+    }
+}
+@media screen and (max-width:484px) {
+    .bike_2 {
+        grid-template-columns: 1fr;
+    }
+    .bike_2--1 {
+        display: none;
+    }
+    .bike_1--2__inner::after {
+        left: 47%;
+    }
+    .bike_1--1 {
+        display: none;
+    }
+    .bike_1 {
+        grid-template-columns: 1fr;
+
+    }
+    .bike_3--2__inner::after {
+        left: 47%;
+    }
+    #email {
+        padding: 20px 100px 20px 18px;
+    }
+}
+@media screen and (max-width:375px) {
+    #email {
+        padding: 20px 50px 20px 18px;
+    }
+    .form-button {
+        padding: 19px 24px;
+    }
+}
+@media screen and (max-width:372px) {
+.social__link:nth-child(3) img{
+    padding-left: 23px;
+}
+}
+
